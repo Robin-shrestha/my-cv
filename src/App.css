@@ -1,38 +1,111 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: arial, sans-serif;
+
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  font-weight: 600;
+}
+body {
+  height: 100vh;
+  /* width: 80%; */
+  margin: 0 auto;
+}
+.container-main {
+  margin: 0 30px;
+  margin-bottom: 150px;
+}
+.sub-title {
+  border-bottom: double;
+  margin-bottom: 1em;
+}
+.container-component {
+  margin-top: 20px;
+  padding: 10px 40px 10px 60px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container-component-list {
+  list-style: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.component-list-item {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 5px 10px;
+  border-bottom: 1px #ddd solid;
+  margin-bottom: 1em;
 }
 
-.App-link {
-  color: #61dafb;
+.list-left {
+  align-self: center;
+  font-size: 0.9em;
+  margin-right: 2em;
+  width: 30%;
+}
+.list-right {
+  width: 60%;
+}
+.location {
+  font-size: 0.8em;
+  margin-bottom: 1em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.key {
+  font-weight: bolder;
+}
+
+.container-personal-detail {
+  margin-top: 70px;
+  padding: 10px 40px 10px 60px;
+  display: flex;
+}
+
+.container-summary {
+  width: 60%;
+  margin-right: 10px;
+}
+
+.container-contact {
+  width: 30%;
+  margin-left: 10px;
+}
+.container-contact p {
+  padding: 5px 0;
+}
+#hire-reason {
+  font-weight: bolder;
+  font-size: 1.2em;
+}
+@media (max-width: 500px) {
+  .container-component {
+    margin-top: 20px;
+    padding: 10px 10px 10px 10px;
   }
-  to {
-    transform: rotate(360deg);
+  .container-main {
+    margin: 0 5px;
+    margin-bottom: 150px;
+  }
+  .container-personal-detail {
+    margin-top: 10px;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+  }
+  .container-summary {
+    width: 100%;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    padding: 5px 20px;
+    border-bottom: 1px #eee solid;
+  }
+
+  .container-contact {
+    width: 100%;
+    margin: 0;
   }
 }
