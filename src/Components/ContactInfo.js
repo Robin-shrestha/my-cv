@@ -1,11 +1,6 @@
 import React from "react";
 
-const ContactInfo = () => {
-  const contact = {
-    PhoneNo: "9813225692",
-    Email: "rsresthas@gmail.com",
-    linkedIn: "Robin Shrestha",
-  };
+const ContactInfo = ({ contact }) => {
   return (
     <div className="container-contact">
       <div className="sub-title">

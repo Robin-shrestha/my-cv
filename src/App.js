@@ -5,19 +5,20 @@ import Header from "./Components/Header";
 import Education from "./Components/Education";
 import Skills from "./Components/Skills";
 import Others from "./Components/Others";
-
 import PersonalDetails from "./Components/PersonalDetails";
+import CV from "./CV";
 
 function App() {
+  const cvDetail = CV();
   return (
     <div className="App">
       <Header />
       <div className="container-main">
-        <PersonalDetails />
-        <WorkExp />
-        <Education />
-        <Skills />
-        <Others />
+        <PersonalDetails personalDetail={cvDetail.personalDetail} />
+        <WorkExp workExperience={cvDetail.workExperience} />
+        <Education myEducation={cvDetail.myEducation} />
+        <Skills mySkills={cvDetail.mySkills} />
+        <Others otherStuffs={cvDetail.otherStuffs} />
       </div>
     </div>
   );

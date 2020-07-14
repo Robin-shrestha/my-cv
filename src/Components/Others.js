@@ -1,13 +1,6 @@
 import React from "react";
 
-const Others = () => {
-  const otherStuffs = {
-    github: (
-      <a href="https://github.com/Robin-shrestha">
-        https://github.com/Robin-shrestha
-      </a>
-    ),
-  };
+const Others = ({ otherStuffs }) => {
   return (
     <div className="container-component">
       <div className="sub-title">
@@ -15,7 +8,6 @@ const Others = () => {
       </div>
       <ul className="container-component-list">
         {Object.entries(otherStuffs).map(([key, value]) => {
-          console.log(value);
           return (
             <li key={key} className="component-list-item">
               <div className="list-left">

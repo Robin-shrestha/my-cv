@@ -1,15 +1,6 @@
 import React from "react";
 
-const Skills = () => {
-  const mySkills = {
-    "Programming Languages": ["Python", "C#", "JavaScript", "HTML", "CSS"],
-    "Web Related Frameworks": ["React", "Flask"],
-    "Electronic Background": [
-      "Electronic Circuit Designing and Production",
-      "Eagle Autocad",
-      "Microcontroller Programing(Arduino and ESP32)",
-    ],
-  };
+const Skills = ({ mySkills }) => {
   return (
     <div className="container-component">
       <div className="sub-title">
