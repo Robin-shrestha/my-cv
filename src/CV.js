@@ -15,7 +15,7 @@ const CV = () => {
       contact: {
         PhoneNo: "9813225692",
         Email: "rsresthas@gmail.com",
-        linkedIn: "Robin Shrestha",
+        linkedIn: "https://www.linkedin.com/in/robin-shrestha-a231871b0/",
       },
     },
     workExperience: [
@@ -32,7 +32,7 @@ const CV = () => {
     myEducation: [
       {
         id: 1,
-        degree: "Bachleors Degree in Electronics and Communication",
+        degree: "Bachelor Degree in Electronics and Communication",
         duration: "November-2015 to October-2019",
         institution: "Kathmandu Engineering College",
         location: " Kalimati, Kathmandu",
