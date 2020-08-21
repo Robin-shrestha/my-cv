@@ -26,7 +26,7 @@ const CV = () => {
         location: "Ekata Marga, New Banehhwor, Kathmandu, Nepal",
         jobDuration: "october-2019 to june-2020",
         shortJobDescripton:
-          "Designed and made electronics circuits. Programming the functionallity and handeling of such circuits.",
+          "Designed and made electronics circuits. Programming the functionality and handling of such circuits.",
       },
     ],
     myEducation: [
